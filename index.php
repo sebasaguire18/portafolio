@@ -14,13 +14,6 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/templatemo-style.css">
 	<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
-<!-- 
-
-Ultra Profile
-
-https://templatemo.com/tm-464-ultra-profile
-
--->
 </head>
 <body data-spy="scroll" data-target="#rock-navigation">
 	<!-- START NAVIGATION -->
@@ -75,14 +68,6 @@ https://templatemo.com/tm-464-ultra-profile
 				</div>
 			</div>
 			<div class="row justify-content-between">
-				<!-- <div class="col-md-4 col-sm-4">
-					<div class="work-wrapper">
-						<i class="fa fa-link"></i>
-						<h3 class="text-uppercase tm-work-h3">Mobile UX</h3>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna.</p>
-					</div>
-				</div> -->
 				<div class="col-md-4 col-sm-4">
 					<div class="work-wrapper">
 						<i class="fa fa-flash"></i>
@@ -110,13 +95,13 @@ https://templatemo.com/tm-464-ultra-profile
 			<div class="row">
 				<div class="col-md-12 wow bounce">
 					<div class="title">
-						<h2 class="tm-portfolio-title">My <strong>Portfolio</strong></h2>
+						<h2 class="tm-portfolio-title">Mi <strong>Portfolio</strong></h2>
 					</div>
 
 					<!-- START ISO SECTION -->
 					<div class="iso-section">
 						<ul class="filter-wrapper clearfix">
-							<li><a href="#" class="opc-main-bg selected" data-filter="*">All</a></li>
+							<li><a href="#" class="opc-main-bg selected" data-filter="*">Todos</a></li>
 							<li><a href="#" class="opc-main-bg" data-filter=".html">HTML</a></li>
 							<li><a href="#" class="opc-main-bg" data-filter=".responsive">Responsive</a></li>
 							<li><a href="#" class="opc-main-bg" data-filter=".wordpress">Wordpress</a></li>
@@ -127,52 +112,60 @@ https://templatemo.com/tm-464-ultra-profile
 								<div style="width: 100%;">
 									<div class="iso-box html responsive col-md-4 col-sm-4 col-xs-12">
 										<div class="portfolio-thumb">
-											<!-- <a href="http://gestorpagos.bltiendas.com"> -->
+											<a target="blank" href="detalles.php?id=1">
 												<img src="images/gestor.png" class="fluid-img" alt="portfolio img">
 												<div class="portfolio-overlay">
 													<h3 class="portfolio-item-title">Gestor de pagos</h3>
 													<p>Plataforma web para gestionar los pagos de una entidad o persona que presta dinero. (En Venta)</p>
 												</div>
-											<!-- </a> -->
+											</a>
 										</div>
 									</div>
 									<div class="iso-box html wordpress mobile col-md-4 col-sm-4 col-xs-12">
 										<div class="portfolio-thumb">
-											<img src="images/portfolio-img2.jpg" class="fluid-img" alt="portfolio img">
-											<div class="portfolio-overlay">
-												<h3 class="portfolio-item-title">UX Design</h3>
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
-											</div>
+											<a target="blank" href="detalles.php?id=2">
+												<img src="images/falur.png" class="fluid-img" alt="portfolio img">
+												<div class="portfolio-overlay">
+													<h3 class="portfolio-item-title">Falur Consultoría</h3>
+													<p>Landing page para una empresa de consultoría.</p>
+												</div>
+											</a>
 										</div>
 									</div>
 									<div class="iso-box wordpress col-md-4 col-sm-4 col-xs-12">
 										<div class="portfolio-thumb">
-											<img src="images/portfolio-img3.jpg" class="fluid-img" alt="portfolio img">
-											<div class="portfolio-overlay">
-												<h3 class="portfolio-item-title">UX Design</h3>
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
-											</div>
+											<a target="blank" href="http://juego-triki.bltiendas.com">
+												<img src="images/juego.png" class="fluid-img" alt="portfolio img">
+												<div class="portfolio-overlay">
+													<h3 class="portfolio-item-title">Juego tipo Triqui o 3 en linea</h3>
+													<p>Está hecho con JavaScript puro y tiene PHP para guardar las sesiones en la base de datos MySQL utilizada.</p>
+												</div>
+											</a>
 										</div>
 									</div>
 									<div class="iso-box html mobile col-md-4 col-sm-4 col-xs-12">
 										<div class="portfolio-thumb">
-											<img src="images/portfolio-img4.jpg" class="fluid-img" alt="portfolio img">
-											<div class="portfolio-overlay">
-												<h3 class="portfolio-item-title">UX Design</h3>
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
-											</div>
+											<a target="blank" href="detalles.php?id=3">
+												<img src="images/certificados.png" class="fluid-img" alt="portfolio img">
+												<div class="portfolio-overlay">
+													<h3 class="portfolio-item-title">Plataforma Para generar Certificados</h3>
+													<p>Está hecho con PHP puro y estructural para guardar las sesiones y registros mostrados, en la base de datos MySQL utilizada. (Single Page App).</p>
+												</div>
+											</a>
 										</div>
 									</div>
 									<div class="iso-box wordpress col-md-4 col-sm-4 col-xs-12">
 										<div class="portfolio-thumb">
-											<img src="images/portfolio-img5.jpg" class="fluid-img" alt="portfolio img">
+											<a target="blank" href="detalles.php?id=4">
+											<img src="images/bltiendaMini.png" class="fluid-img" alt="portfolio img">
 											<div class="portfolio-overlay">
-												<h3 class="portfolio-item-title">UX Design</h3>
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
+												<h3 class="portfolio-item-title">Tienda Mini tienda virtual</h3>
+												<p>Está hecho con PHP puro y estructural para guardar las sesiones y registros mostrados, en la base de datos MySQL utilizada.</p>
 											</div>
+											</a>
 										</div>
 									</div>
-									<div class="iso-box html photoshop col-md-4 col-sm-4 col-xs-12">
+									<!-- <div class="iso-box html photoshop col-md-4 col-sm-4 col-xs-12">
 										<div class="portfolio-thumb">
 											<img src="images/portfolio-img6.jpg" class="fluid-img" alt="portfolio img">
 											<div class="portfolio-overlay">
@@ -198,7 +191,7 @@ https://templatemo.com/tm-464-ultra-profile
 												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
 											</div>
 										</div>
-									</div>
+									</div> -->
 								</div>
 							</div>
 						</div>
@@ -214,28 +207,61 @@ https://templatemo.com/tm-464-ultra-profile
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-sm-6">					
-					<h2 class="title">My <strong>Profile</strong></h2>
-					<p><span class="tm-info-label">Name</span> John White</p>
-					<p><span class="tm-info-label">Birthday</span> December 24, 1996</p>
-					<p><span class="tm-info-label">Address</span> Melbourne Victoria 3000 Australia</p>
-					<p><span class="tm-info-label">Phone</span> +001 020 0340 | 009 080 0760</p>
-					<p><span class="tm-info-label">Email</span> hello@company.com</p>
-					<p><span class="tm-info-label">Website</span> <a href="#" class="tm-red-text">www.company.com</a></p>
+					<h2 class="title">Mi <strong>Perfil</strong></h2>
+					<p><span class="tm-info-label">Nombre</span> Sebastián Aguirre Vallejo</p>
+					<p><span class="tm-info-label">Nacimiento</span> Noviembre 18, 2000</p>
+					<p><span class="tm-info-label">Dirección</span> Colombia</p>
+					<p><span class="tm-info-label">Celular</span> +57 323 385 8522</p>
+					<p><span class="tm-info-label">Email</span> sebasavmt@gmail.com</p>
+					<p><span class="tm-info-label">Empresa</span> <a target="blank" href="https://bltiendas.com/" class="tm-red-text">www.bltiendas.com</a></p>
 				</div>
 				<div class="col-md-6 col-sm-6">
-					<h2 class="title"><strong>Some</strong> Skills</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
-					<h4 class="tm-progress-label">Bootstrap <small class="progress-percent-small">100%</small></h4>
-					<div class="progress tm-progress">
-						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-					</div>
-					<h4 class="tm-progress-label">HTML5 <small class="progress-percent-small">90%</small></h4>
-					<div class="progress tm-progress">
-						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-					</div>
-					<h4 class="tm-progress-label">SEO <small class="progress-percent-small">80%</small></h4>
-					<div class="progress tm-progress">
-						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+					<h2 class="title">Habilidades</h2>
+					<div class="row">
+						<div class="col-md-6 col-sm-12">
+							<h4 class="tm-progress-label">Bootstrap <small class="progress-percent-small">70%</small></h4>
+							<div class="progress tm-progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+							</div>
+							<h4 class="tm-progress-label">HTML5 <small class="progress-percent-small">80%</small></h4>
+							<div class="progress tm-progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+							</div>
+							<h4 class="tm-progress-label">CSS <small class="progress-percent-small">80%</small></h4>
+							<div class="progress tm-progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+							</div>
+							<h4 class="tm-progress-label">JS <small class="progress-percent-small">80%</small></h4>
+							<div class="progress tm-progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+							</div>
+							<h4 class="tm-progress-label">AJAX <small class="progress-percent-small">70%</small></h4>
+							<div class="progress tm-progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-12">
+							<h4 class="tm-progress-label">JQUERY <small class="progress-percent-small">70%</small></h4>
+							<div class="progress tm-progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+							</div>
+							<h4 class="tm-progress-label">PHP <small class="progress-percent-small">85%</small></h4>
+							<div class="progress tm-progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+							</div>
+							<h4 class="tm-progress-label">MYSQL <small class="progress-percent-small">70%</small></h4>
+							<div class="progress tm-progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+							</div>
+							<h4 class="tm-progress-label">PL/SQL ORACLE <small class="progress-percent-small">40%</small></h4>
+							<div class="progress tm-progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+							</div>
+							<h4 class="tm-progress-label">ANGULAR JS Y ANGULAR 8+ <small class="progress-percent-small">40%</small></h4>
+							<div class="progress tm-progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -246,8 +272,8 @@ https://templatemo.com/tm-464-ultra-profile
 	<!-- START SOCIAL -->
 	<section id="social" class="tm-social">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-sm-4 wow rotateInUpLeft" data-wow-delay="0.3s">
+			<div class="row justify-content-center">
+				<!-- <div class="col-md-4 col-sm-4 wow rotateInUpLeft" data-wow-delay="0.3s">
 					<div class="media facebook">
 						<a href="#">
 							<div class="media-object pull-left">
@@ -255,7 +281,7 @@ https://templatemo.com/tm-464-ultra-profile
 							</div>
 							<div class="media-body">
 								<h4 class="media-heading tm-social-title">Follow me on</h4>
-								<h3>Social Facebook</h3>
+								<h3>Facebook</h3>
 							</div>
 						</a>
 					</div>
@@ -272,16 +298,16 @@ https://templatemo.com/tm-464-ultra-profile
 							</div>
 						</a>
 					</div>
-				</div>
+				</div> -->
 				<div class="col-md-4 col-sm-4 wow rotateInUpLeft" data-wow-delay="0.9s">
-					<div class="media pinterest">
-						<a href="#">
+					<div class="media whatsapp">
+						<a target="blank" href="https://wa.me/573233858522?text=Quisiera%20realizar%20una%20cotización,%20o%20una%20consulta.">
 							<div class="media-object pull-left">
-								<i class="fa fa-pinterest"></i>
+								<i class="fa fa-whatsapp"></i>
 							</div>
 							<div class="media-body">
-								<h4 class="media-heading tm-social-title">Pin me on</h4>
-								<h3>Social Pinterest</h3>
+								<!-- <h4 class="media-heading tm-social-title">Pin me on</h4> -->
+								<h3>Whatsapp</h3>
 							</div>
 						</a>
 					</div>
@@ -296,31 +322,38 @@ https://templatemo.com/tm-464-ultra-profile
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">					
-					<h2 class="title">Drop <strong>me a line</strong></h2>
+					<h2 class="title">Contactarme <strong>en linea</strong></h2>
 					<hr>					
 				</div>
 				<div class="col-md-1 col-sm-1"></div>
 				<div class="col-md-10 col-sm-10">
-					<form action="#" method="post">
+					<form action="php/logica.php" method="POST" id="formContacto">
 						<div class="col-md-6 col-sm-6">
-							<input class="form-control" type="text" placeholder="Your Name">
+							<input class="form-control" type="email" placeholder="Email" name="campo_emailContacto" id="campo_emailContacto">
+							<div class="invalid-feedback d-none" id="alert_emailContacto">
+                                Por favor ingresa un email valido
+                            </div>
 						</div>
 						<div class="col-md-6 col-sm-6">
-							<input class="form-control" type="email" placeholder="Your Email">
+							<input class="form-control" type="text" placeholder="Asunto" name="campo_asuntoContacto" id="campo_asuntoContacto">
+							<div class="invalid-feedback d-none" id="alert_asuntoContacto">
+								Por favor ingresa un asunto
+							</div>
 						</div>
 						<div class="col-md-12 col-sm-12">
-							<input class="form-control" type="text" placeholder="Your Subject">
-							<textarea class="form-control" placeholder="Your Message" rows="6"></textarea>
+							<textarea class="form-control" placeholder="Mensaje" rows="6" name="campo_mensajeContacto" id="campo_mensajeContacto"></textarea>
+							<div class="invalid-feedback d-none" id="alert_mensajeContacto">
+                                Por favor ingresa un mensaje
+                            </div>
 						</div>
 						<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-							<input class="form-control" type="submit" value="SHOOT MESSAGE">
+							<button class="form-control text-center" name="btn_contacto" id="btn_contacto">Enviar</button>
 						</div>
 					</form>
 				</div>
 				<div class="col-md-1 col-sm-1"></div>
 				<div class="col-md-12 col-sm-12">
-					<p>Copyright &copy; 2018 Ultra Profile
-                    . design: <a rel="nofollow noopener" href="https://templatemo.com">template mo</a></p>
+					<p>Copyright &copy; 2022 Ultra Profile. diseñado por: <a rel="nofollow noopener" href="http://sebastian.bltiendas.com">Sebastián Aguirre Vallejo</a></p>
 				</div>
 			</div>
 		</div>

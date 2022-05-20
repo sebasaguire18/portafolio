@@ -90,3 +90,35 @@ jQuery(document).ready(function($){
     $('.navbar-collapse a').click(function(){
         $(".navbar-collapse").collapse('hide');
     });
+
+	
+	let exprEmail = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-z0-9\-\.]+$/;
+
+	
+	$('#btn_contacto').click(function() {
+
+		// para el inicio de sesion desde el archivo index
+		let campo_emailContacto = $('#campo_emailContacto').val();
+		let campo_asuntoContacto = $('#campo_asuntoContacto').val();
+		let campo_mensajeContacto = $('#campo_mensajeContacto').val();
+
+		if(campo_emailContacto == '' || !exprEmail.test(campo_emailContacto)){
+			$('#alert_emailContacto').removeClass('d-none');
+			return false;
+		}else{
+			$('#alert_emailContacto').addClass('d-none');
+
+			if(campo_asuntoContacto == ''){
+				$('#alert_asuntoContacto').removeClass('d-none');
+				return false;
+			}else{
+				$('#alert_asuntoContacto').addClass('d-none');
+				if(campo_mensajeContacto == '' || campo_mensajeContacto == ' '){
+					$('#alert_mensajeContacto').removeClass('d-none');
+					return false;
+				}else{
+					$('#alert_mensajeContacto').addClass('d-none');
+				}
+			}
+		}
+	});
