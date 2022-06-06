@@ -102,10 +102,6 @@
 					<div class="iso-section">
 						<ul class="filter-wrapper clearfix">
 							<li><a href="#" class="opc-main-bg selected" data-filter="*">Todos</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".html">HTML</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".responsive">Responsive</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".wordpress">Wordpress</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".mobile">Mobile</a></li>
 						</ul>
 						<div class="iso-box-section">
 							<div class="iso-box-wrapper col4-iso-box justify-content-center">
@@ -160,6 +156,17 @@
 											<img src="images/bltiendaMini.png" class="fluid-img" alt="portfolio img">
 											<div class="portfolio-overlay">
 												<h3 class="portfolio-item-title">Tienda Mini tienda virtual</h3>
+												<p>Está hecho con PHP puro y estructural para guardar las sesiones y registros mostrados, en la base de datos MySQL utilizada.</p>
+											</div>
+											</a>
+										</div>
+									</div>
+									<div class="iso-box wordpress col-md-4 col-sm-4 col-xs-12">
+										<div class="portfolio-thumb">
+											<a target="blank" href="https://bltiendas.com/">
+											<img src="images/bltienda.png" class="fluid-img" alt="portfolio img">
+											<div class="portfolio-overlay">
+												<h3 class="portfolio-item-title">BL Tienda, tienda virtual</h3>
 												<p>Está hecho con PHP puro y estructural para guardar las sesiones y registros mostrados, en la base de datos MySQL utilizada.</p>
 											</div>
 											</a>
